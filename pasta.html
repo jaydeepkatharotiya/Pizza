@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<!-- Bootstrap -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+	<!-- Custom CSS -->
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+	<script defer src="https://use.fontawesome.com/releases/v5.7.1/js/all.js" integrity="sha384-eVEQC9zshBn0rFj4+TU78eNA19HMNigMviK/PU/FFjLXqa/GKPgX58rvt5Z8PLs7" crossorigin="anonymous"></script>
+</head>
+<body>
+	<div class="main">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-3 nav-bar">
+						<div class="container-fluid">
+							<div class="row">
+								<h1 style="font-weight: bold; margin-left: 15px;">Pizza</h1>
+							</div>
+							<div class="row nav-bar2">
+								<ul>
+									<li><a href="index.html">Pizza</a></li>
+									<li><a href="#"><img src="Image/line.png" style="width: 50px;"> Pasta</a></li>
+									<li><a href="soup.html">Soup</a></li>
+									<li><a href="#">Sandwich</a></li>
+									<li><a href="#">Aloo Tiki</a></li>
+									<li><a href="#">Perry Perry</a></li>
+								</ul></div></div></div>
+				<div class="col-md-3"></div>
+				<div class="col-md-9 main-bar">
+					<div class="container-fluid">
+						<div class="row">
+							<div class="col-md-9"><a href="#">All Filter</a> &nbsp&nbsp&nbsp&nbsp</nav><a href="#">Sort : A to Z</a></div>
+							<div class="col-md-3"><i class="far fa-user"></i> &nbsp&nbsp<a href="#" onclick="document.getElementById('id01').style.display='block'" >Log In</a></div>
+							<div id="id01" class="modal" style="text-align: center;">
+  
+					  <form class="modal-content animate" action="#">
+					    <div class="imgcontainer">
+					      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+					      <img src="Image/user.png" class="avatar">
+					    </div>
+
+					    <div class="container">
+					      <label for="uname"><b>Username</b></label>
+					      <input type="text" placeholder="Enter Username" name="uname" required>
+
+					      <label for="psw"><b>Password</b></label>
+					      <input type="password" placeholder="Enter Password" name="psw" required>
+					        
+					      <button type="submit">Login</button>
+					      <label>
+					        <input type="checkbox" checked="checked" name="remember"> Remember me
+					      </label>
+					    </div>
+
+					    <div class="container" style="background-color:#f1f1f1">
+					      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+					      <span class="psw">Forgot <a href="#">password?</a></span>
+					    </div>
+					  </form>
+					</div>
+
+					<script>
+					// Get the modal
+					var modal = document.getElementById('id01');
+
+					// When the user clicks anywhere outside of the modal, close it
+					window.onclick = function(event) {
+					    if (event.target == modal) {
+					        modal.style.display = "none";
+					    }
+					}
+					</script>
+						</div>
+						<div class="row" style="text-align: center;padding-top: 45px;">
+							<div class="col-md-4">
+								<a href="des.html"><img src="Image/pasta1.png" height="200px"></a><br>
+								<b style="color: #999966;">$ 159</b><br><b style="font-size: 25px;">Mix Pizza</b><br>
+								<p style="font-size: 13px; color: #999966;">Lorem Lohuji kiiilu tooo  diku loun tuyr jit kip sudf koll huej deual.</p><br>
+							</div>
+							<div class="col-md-4">
+								<a href="des.html"><img src="Image/pasta2.png" height="200px"></a><br>
+								<b style="color: #999966;">$ 159</b><br><b style="font-size: 25px;">Mexican Pizza</b><br>
+								<p style="font-size: 13px; color: #999966;">Lorem Lohuji kiiilu tooo  diku loun tuyr jit kip sudf koll huej deual.</p><br>
+							</div>
+							<div class="col-md-4">
+								<a href="des.html"><img src="Image/pasta1.png" height="200px"></a><br>
+								<b style="color: #999966;">$ 159</b><br><b style="font-size: 25px;">Spicy Pizza</b><br>
+								<p style="font-size: 13px; color: #999966;">Lorem Lohuji kiiilu tooo  diku loun tuyr jit kip sudf koll huej deual.</p><br>
+							</div></div></div></div></div></div></div>
+</body></html>
